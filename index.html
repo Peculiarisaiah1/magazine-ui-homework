@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pulse Daily</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Pulse Daily</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#topnews">Top News</a></li>
+                <li class="nav-item"><a class="nav-link" href="#olympics">Olympics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#subscribe">Subscribe</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- TOP NEWS -->
+<section id="topnews" class="container mt-5">
+    <h2 class="text-center mb-3">Top News</h2>
+    <p class="text-center">
+        Today’s top story covers the rapid rise of technology and how it is reshaping everyday life.
+        From artificial intelligence to global economic shifts, Pulse Daily delivers clear, concise,
+        and reliable reporting on what matters most right now.
+    </p>
+</section>
+
+<!-- OLYMPICS -->
+<section id="olympics" class="container mt-5">
+    <h2 class="text-center mb-3">History of the Olympics</h2>
+    <p class="text-center">
+        The Olympic Games began in ancient Greece around 776 BC as a celebration honoring Zeus.
+        Athletes competed in events such as running, wrestling, and chariot racing. The modern Olympics
+        were revived in 1896 in Athens by Pierre de Coubertin to promote unity and peace through sport.
+        Today, the Olympics unite athletes from around the world in a global celebration of competition
+        and culture.
+    </p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="container mt-5">
+    <h2 class="text-center mb-4">Gallery</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?1" class="img-fluid rounded mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?2" class="img-fluid rounded mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?3" class="img-fluid rounded mb-3">
+        </div>
+    </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section id="subscribe" class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Subscribe</h2>
+
+    <form class="row g-3">
+
+        <div class="col-md-6">
+            <label class="form-label">First Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Subscription Type</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="type">
+                <label class="form-check-label">Digital</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="type">
+                <label class="form-check-label">Print</label>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Credit Card Number</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Card Type</label>
+            <select class="form-select">
+                <option>Mastercard</option>
+                <option>Visa</option>
+                <option>American Express</option>
+            </select>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-dark text-white text-center py-4">
+    <p>Contact us: info@pulsedaily.com</p>
+
+    <div class="d-flex justify-content-center gap-4">
+        <i class="bi bi-facebook fs-3"></i>
+        <i class="bi bi-twitter fs-3"></i>
+        <i class="bi bi-instagram fs-3"></i>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
